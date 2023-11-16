@@ -291,7 +291,8 @@ window.onload = function() {
     plugins: [
       SwaggerUIBundle.plugins.DownloadUrl
     ],
-    layout: "StandaloneLayout"
+    layout: "StandaloneLayout",
+    defaultModelsExpandDepth: -1
   })
 
   {{if .OAuth}}
